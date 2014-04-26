@@ -9,11 +9,11 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"QBoke\\": "src/"
+			"QBoke\\": ""
 		}
 	},
 	"scripts": {
-		"post-create-project-cmd": "QBoke\\Installer::postCreateProject"
+		"post-create-project-cmd": "QBoke\\InstallerWrapper::run"]
 	},
 	"config": {
 		"preferred-install": "dist"

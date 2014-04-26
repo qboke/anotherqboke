@@ -1,7 +1,7 @@
 .project
-vendor
 .buildpath
 .settings
+vendor
 data
 public
 cache
