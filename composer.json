@@ -1,0 +1,22 @@
+{
+	"name": "soli/anotherqboke",
+	"description": "Plain and Simple.",
+	"keywords": ["blog", "markdown", "git", "php"],
+	"type": "project",
+	"license": "BSD-2-Clause",
+	"require": {
+		"soli/qboke": ">=0.1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"QBoke\\": "src/"
+		}
+	},
+	"scripts": {
+		"post-create-project-cmd": "QBoke\\Installer::postCreateProject"
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "stable"
+}

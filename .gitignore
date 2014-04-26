@@ -1,0 +1,7 @@
+.project
+vendor
+.buildpath
+.settings
+data
+public
+cache
