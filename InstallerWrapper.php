@@ -16,7 +16,7 @@ class InstallerWrapper
 {
 	public static function run(Event $event)
 	{
-		$intaller = new QBoke\Installer();
+		$intaller = new Common\Installer();
 		$intaller->run($event);
 	}
 }

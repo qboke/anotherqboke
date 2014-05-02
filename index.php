@@ -12,4 +12,4 @@ require 'vendor/autoload.php';
 
 $site = new QBoke\QBSite();
 $site->init();
-$site->index();
+$site->get(urldecode($_SERVER['REQUEST_URI']));
