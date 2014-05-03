@@ -5,7 +5,7 @@
 	"type": "project",
 	"license": "BSD-2-Clause",
 	"require": {
-		"soli/qboke": ">=0.1.0"
+		"soli/qboke": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {
