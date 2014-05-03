@@ -5,7 +5,7 @@
 	"type": "project",
 	"license": "BSD-2-Clause",
 	"require": {
-		"soli/qboke": "dev-dev"
+		"soli/qboke": ">=0.1.0"
 	},
 	"autoload": {
 		"psr-4": {
@@ -13,7 +13,9 @@
 		}
 	},
 	"scripts": {
-		"post-create-project-cmd": "QBoke\\InstallerWrapper::run"
+		"post-create-project-cmd": "QBoke\\InstallerWrapper::run",
+		"post-install-cmd": "QBoke\\InstallerWrapper::run"
+		"post-update-cmd": "QBoke\\InstallerWrapper::run"
 	},
 	"config": {
 		"preferred-install": "dist"

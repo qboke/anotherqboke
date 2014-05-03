@@ -5,8 +5,8 @@
  * */
 
 /** Define ABSPATH as this file's directory */
-define( 'ABSPATH', dirname(__FILE__) );
+define( 'ABSPATH', __DIR__ );
 
 require 'vendor/autoload.php';
 
-\QBoke\Common\Start\sync();
+QBoke\Common\Start::sync();
