@@ -13,7 +13,7 @@
 		}
 	},
 	"scripts": {
-		"post-create-project-cmd": "QBoke\\InstallerWrapper::run"]
+		"post-create-project-cmd": "QBoke\\InstallerWrapper::run"
 	},
 	"config": {
 		"preferred-install": "dist"
