@@ -14,7 +14,7 @@
 	},
 	"scripts": {
 		"post-create-project-cmd": "QBoke\\InstallerWrapper::run",
-		"post-install-cmd": "QBoke\\InstallerWrapper::run"
+		"post-install-cmd": "QBoke\\InstallerWrapper::run",
 		"post-update-cmd": "QBoke\\InstallerWrapper::run"
 	},
 	"config": {
