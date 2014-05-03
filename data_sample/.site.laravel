@@ -3,10 +3,11 @@ subhead     : Plain and Simple
 keywords    : [QBoke, Git, Markdown, Blog]
 description : Keep Writing, Don't Bother Anything Else.
 timezone    : Asia/Shanghai
+linage : 20
 lang   : zh_CN
 rss    :
-theme  : laravel
-linage : 20
+theme  : Laravel
+plugins: [CodePrettify, Comments, Signature]
 opts   :
     sidebar :
         - name : ""
