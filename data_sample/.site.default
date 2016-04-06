@@ -55,8 +55,7 @@ opts   :
     comments :
         enable : false   # true | false
         disqus_shortname : ""
-        disqus_category_id    : ""
-        disqus_disable_mobile : false # true | false
+        disqus_urlbase : http://domain.com
 
     code-prettify :
         enable   : true     # true | false
