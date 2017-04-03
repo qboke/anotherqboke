@@ -6,7 +6,7 @@ timezone    : Asia/Shanghai
 linage : 20
 lang   : zh_CN
 rss    :
-theme  : Laravel
+theme  : Bootstrap4
 plugins: [CodePrettify, Comments, Signature]
 options:
     sidebar :
